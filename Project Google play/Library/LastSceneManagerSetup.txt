@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Emerson/Emerson.unity
+=======
+- path: Assets/Artist/Scenes/Isra.unity
+>>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0
