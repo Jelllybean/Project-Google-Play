@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Artist/Scenes/Isra.unity
+- path: Assets/Artist/Scenes/Nigel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
