@@ -6,13 +6,13 @@ public class SpawnPatrol : MonoBehaviour
 {
 
     public Vector3 direction;
+    public bool canPlace;
     private float moveSpeed;
     private float distance;
 
     void Update()
     {
-        Vector3 dsfji = new Vector3(direction.x, direction.y, direction.z);
-        transform.Translate(dsfji);
+        transform.Translate(direction);
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -20,5 +20,16 @@ public class SpawnPatrol : MonoBehaviour
         {
             direction.x *= -1;
         }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Board")
+        {
+            canPlace = false;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        canPlace = true;
     }
 }

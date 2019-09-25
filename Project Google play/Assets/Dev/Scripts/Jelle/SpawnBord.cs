@@ -20,17 +20,24 @@ public class SpawnBord : MonoBehaviour
         {
             transform.position = SpawnPoint.position;
         }
-        if(Input.touchCount > 2)
+        if(Input.touchCount > 0)
         {
-            print("AAAAAAAAAAAAAAAh");
             animator.SetBool("Turn", false);
         }
+    }
+    //this one gets used by an animation
+    public void GoBackDownEvent()
+    {
+        animator.SetBool("End", true);
+        gameObject.SetActive(false);
+    }
+    //you use this one in another script when you hit a board
+    public void GoBackDown()
+    {
+        animator.SetBool("Turn", false);
     }
     private void OnEnable()
     {
         animator.SetBool("Turn", true);
-    }
-    private void OnDisable()
-    {
     }
 }

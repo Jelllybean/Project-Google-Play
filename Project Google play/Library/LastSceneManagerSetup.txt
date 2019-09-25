@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Artist/Scenes/Isra.unity
+- path: Assets/Scenes/Jelle/Protype.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
