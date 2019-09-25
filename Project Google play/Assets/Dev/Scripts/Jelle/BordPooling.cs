@@ -32,7 +32,6 @@ public class BordPooling : MonoBehaviour
                 spawnBord[randomNum].followPosition = false;
                 BordList[randomNum].SetActive(true);
                 BordList[randomNum].transform.position = SpawnPoint[Random.Range(0, SpawnPoint.Length)].position;
-                print("dgjdfijodsf");
             }
             timer = 0;
         }

@@ -20,8 +20,9 @@ public class SpawnBord : MonoBehaviour
         {
             transform.position = SpawnPoint.position;
         }
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.touchCount > 2)
         {
+            print("AAAAAAAAAAAAAAAh");
             animator.SetBool("Turn", false);
         }
     }
