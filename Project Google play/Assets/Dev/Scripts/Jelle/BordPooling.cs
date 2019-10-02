@@ -9,8 +9,9 @@ public class BordPooling : MonoBehaviour
     [SerializeField] private List<GameObject> BordList;
     [SerializeField] private Transform[] SpawnPoint;
     [SerializeField] private float spawnSpeed;
-    [SerializeField] private SpawnPatrol[] spawnPatrol;
+    private SpawnPatrol[] spawnPatrol = new SpawnPatrol[3];
     private float timer;
+    private bool goTroughFor = true;
 
     void Start()
     {
@@ -28,38 +29,67 @@ public class BordPooling : MonoBehaviour
         }
     }
 
-    
+
     void Update()
     {
-        timer += spawnSpeed * Time.deltaTime;
-        if(timer >= 0.5f)
+        timer += 1 * Time.deltaTime;
+        if (timer >= spawnSpeed)
         {
+            Debug.Log("spawn een bord");
             int randomNum = Random.Range(0, BordList.Count);
             int randomNumSpawn = Random.Range(0, spawnPatrol.Length);
-            if(!BordList[randomNum].activeSelf)
+            int randomNumInactive = randomIntExcept(0, BordList.Count, randomNum);
+            for (int i = 0; i < BordList.Count; i++)
             {
-                spawnBord[randomNum].followPosition = false;
-                BordList[randomNum].gameObject.transform.rotation = Quaternion.Euler(0,
-                                                                                     -90,
-                                                                                     0);
-                BordList[randomNum].SetActive(true);
-                if(spawnPatrol[randomNumSpawn].canPlace)
+                if (!BordList[i].activeSelf)
                 {
-                    BordList[randomNum].transform.position = SpawnPoint[randomNumSpawn].position;
-                }
-                else
-                {
-                    int aaaa = randomIntExcept(0, spawnPatrol.Length, randomNumSpawn);
-                    BordList[randomNum].transform.position = SpawnPoint[aaaa].position;
-                    print("he het werkt");
-                    print("RandomNumSpawn: " + randomNumSpawn + " Uitzondering: " + aaaa);
+                    SpawnBordFunction(i, randomNumSpawn);
+                    break;
                 }
             }
+            //if (!BordList[randomNum].activeSelf)
+            //{
+            //    SpawnBordFunction(randomNum, randomNumSpawn);
+            //}
+            //else if(!BordList[randomNumInactive].activeSelf)
+            //{
+            //    SpawnBordFunction(randomNumInactive, randomNumSpawn);
+            //}
             timer = 0;
         }
     }
 
-    public int randomIntExcept(int min, int max, int except)
+    private void SpawnBordFunction(int selectedBord, int randomNumSpawn)
+    {
+        goTroughFor = true;
+        spawnBord[selectedBord].followPosition = false;
+        BordList[selectedBord].gameObject.transform.rotation = Quaternion.Euler(0,
+                                                                             -90,
+                                                                             0);
+        BordList[selectedBord].SetActive(true);
+        for (int i = 0; i < spawnPatrol.Length; i++)
+        {
+            if(!spawnPatrol[i].canPlace)
+            {
+                BordList[selectedBord].transform.position = SpawnPoint[randomIntExcept(0, spawnPatrol.Length, i)].position;
+            }
+            else
+            {
+                BordList[selectedBord].transform.position = SpawnPoint[Random.Range(0, spawnPatrol.Length)].position;
+            }
+        }
+        //if (spawnPatrol[randomNumSpawn].canPlace)
+        //{
+        //    BordList[selectedBord].transform.position = SpawnPoint[randomNumSpawn].position;
+        //}
+        //else
+        //{
+        //    //print("random nummer van de spawn: " + randomNumSpawn);
+        //    int aaa = randomIntExcept(0, spawnPatrol.Length, randomNumSpawn);
+        //    BordList[selectedBord].transform.position = SpawnPoint[aaa].position;
+        //}
+    }
+    private int randomIntExcept(int min, int max, int except)
     {
         int result = Random.Range(min, max - 1);
         if (result >= except) result += 1;

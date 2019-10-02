@@ -13,7 +13,6 @@ public class SpawnBord : MonoBehaviour
         //animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(followPosition)
@@ -36,6 +35,7 @@ public class SpawnBord : MonoBehaviour
     {
         animator.SetBool("Turn", false);
     }
+    //to start the animation when the object gets enabled
     private void OnEnable()
     {
         animator.SetBool("Turn", true);
