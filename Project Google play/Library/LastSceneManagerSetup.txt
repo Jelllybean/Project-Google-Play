@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Jelle/Protype.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/Emerson/Emerson.unity
+=======
+- path: Assets/Artist/Scenes/Isra.unity
+>>>>>>> master
+>>>>>>> Emerson
   isLoaded: 1
   isActive: 1
   isSubScene: 0
