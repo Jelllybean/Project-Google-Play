@@ -7,11 +7,6 @@ public class SpawnBord : MonoBehaviour
     [SerializeField] private Transform SpawnPoint;
     [SerializeField] private Animator animator;
     [HideInInspector] public bool followPosition = true;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //animator = GetComponent<Animator>();
-    }
 
     void Update()
     {
@@ -19,10 +14,10 @@ public class SpawnBord : MonoBehaviour
         {
             transform.position = SpawnPoint.position;
         }
-        if(Input.touchCount > 0)
-        {
-            animator.SetBool("Turn", false);
-        }
+        //if(Input.touchCount > 0)
+        //{
+        //    animator.SetBool("Turn", false);
+        //}
     }
     //this one gets used by an animation
     public void GoBackDownEvent()
