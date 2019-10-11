@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Emerson/Menu.unity
+    guid: de0f3d37697f20a44bea115aed62006a
+  - enabled: 1
     path: Assets/Scenes/Emerson/Emerson.unity
     guid: 188fd15b5e489424c8f00d44b761028d
   m_configObjects: {}
