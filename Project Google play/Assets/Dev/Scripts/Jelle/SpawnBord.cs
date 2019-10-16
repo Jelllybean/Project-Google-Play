@@ -7,7 +7,10 @@ public class SpawnBord : MonoBehaviour
     [SerializeField] private Transform SpawnPoint;
     [SerializeField] private Animator animator;
     [HideInInspector] public bool followPosition = true;
-
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     void Update()
     {
         if(followPosition)

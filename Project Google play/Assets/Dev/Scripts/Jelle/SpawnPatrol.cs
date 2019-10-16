@@ -9,11 +9,11 @@ public class SpawnPatrol : MonoBehaviour
     public bool canPlace = true;
     private float moveSpeed;
     private float distance;
-    [SerializeField] private MeshRenderer meshRenderer;
+    //[SerializeField] private MeshRenderer meshRenderer;
 
     private void Start()
     {
-        meshRenderer.GetComponent<MeshRenderer>();
+        //meshRenderer.GetComponent<MeshRenderer>();
     }
     void Update()
     {
@@ -31,12 +31,12 @@ public class SpawnPatrol : MonoBehaviour
         if (other.gameObject.tag == "Board")
         {
             canPlace = false;
-            meshRenderer.enabled = true;
+            //meshRenderer.enabled = true;
         }
         else
         {
             canPlace = true;
-            meshRenderer.enabled = false;
+            //meshRenderer.enabled = false;
         }
     }
     //private void OnTriggerExit(Collider other)
