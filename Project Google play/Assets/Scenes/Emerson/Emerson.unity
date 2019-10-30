@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334936a9c84a480499256b91ce8503d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardForce: 500
-  sideForce: 1000
+  forwardForce: 400
+  sideForce: 2000
   ballRigidbody: {fileID: 120260497}
 --- !u!135 &120260499
 SphereCollider:
