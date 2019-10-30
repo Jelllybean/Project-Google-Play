@@ -6,6 +6,9 @@ public class DestroyBord : MonoBehaviour
 {
     private SpawnBord spawnBord;
     private Score score;
+    [SerializeField] private GameObject DeathPoster;
+    [SerializeField] private GameObject IdlePoster;
+    [SerializeField] private GameObject ShootPoster;
     void Start()
     {
         score = FindObjectOfType<Score>();
@@ -16,7 +19,10 @@ public class DestroyBord : MonoBehaviour
     {
         if (other.gameObject.tag == "ThrownBall")
         {
-            spawnBord.GoBackDown();
+            IdlePoster.SetActive(false);
+            ShootPoster.SetActive(false);
+            DeathPoster.SetActive(true);
+            StartCoroutine(spawnBord.GoBackDown());
             score.TotalScore += 100;
         }
     }

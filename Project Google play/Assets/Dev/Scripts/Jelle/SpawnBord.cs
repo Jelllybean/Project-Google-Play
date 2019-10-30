@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class SpawnBord : MonoBehaviour
 {
+    private Animator animator;
     [SerializeField] private Transform SpawnPoint;
-    [SerializeField] private Animator animator;
     [HideInInspector] public bool followPosition = true;
-    private void Awake()
+
+    void Awake()
     {
         animator = GetComponent<Animator>();
     }
+
     void Update()
     {
         if(followPosition)
@@ -22,6 +24,12 @@ public class SpawnBord : MonoBehaviour
         //    animator.SetBool("Turn", false);
         //}
     }
+
+    //to start the animation when the object gets enabled
+    private void OnEnable()
+    {
+        animator.SetBool("Turn", true);
+    }
     //this one gets used by an animation
     public void GoBackDownEvent()
     {
@@ -29,13 +37,9 @@ public class SpawnBord : MonoBehaviour
         gameObject.SetActive(false);
     }
     //you use this one in another script when you hit a board
-    public void GoBackDown()
+    public IEnumerator GoBackDown()
     {
+        yield return new WaitForSeconds(1f);
         animator.SetBool("Turn", false);
-    }
-    //to start the animation when the object gets enabled
-    private void OnEnable()
-    {
-        animator.SetBool("Turn", true);
     }
 }

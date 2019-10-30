@@ -11,16 +11,13 @@ public class BordPooling : MonoBehaviour
     [SerializeField] private float spawnSpeed;
     private SpawnPatrol[] spawnPatrol = new SpawnPatrol[3];
     private float timer;
-    private bool goTroughFor = true;
 
     void Start()
     {
         for (int i = 0; i < BordList.Count; i++)
         {
             spawnBord[i] = BordList[i].GetComponent<SpawnBord>();
-            BordList[i].gameObject.transform.rotation = Quaternion.Euler(0,
-                                                                         -90,
-                                                                         0);
+            BordList[i].gameObject.transform.rotation = Quaternion.Euler(0, -90, 0);
             BordList[i].SetActive(false);
         }
         for (int i = 0; i < SpawnPoint.Length; i++)
@@ -61,11 +58,8 @@ public class BordPooling : MonoBehaviour
 
     private void SpawnBordFunction(int selectedBord, int randomNumSpawn)
     {
-        goTroughFor = true;
         spawnBord[selectedBord].followPosition = false;
-        BordList[selectedBord].gameObject.transform.rotation = Quaternion.Euler(0,
-                                                                             -90,
-                                                                             0);
+        BordList[selectedBord].gameObject.transform.rotation = Quaternion.Euler(0, -90, 0);
         BordList[selectedBord].SetActive(true);
         for (int i = 0; i < spawnPatrol.Length; i++)
         {
