@@ -72,10 +72,12 @@ public class BordPooling : MonoBehaviour
             if(!spawnPatrol[i].canPlace)
             {
                 BordList[selectedBord].transform.position = SpawnPoint[randomIntExcept(0, spawnPatrol.Length, i)].position;
+                break;
             }
             else
             {
                 BordList[selectedBord].transform.position = SpawnPoint[Random.Range(0, spawnPatrol.Length)].position;
+                break;
             }
         }
         //if (spawnPatrol[randomNumSpawn].canPlace)
