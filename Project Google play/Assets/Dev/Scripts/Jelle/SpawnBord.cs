@@ -15,10 +15,10 @@ public class SpawnBord : MonoBehaviour
 
     void Update()
     {
-        if(followPosition)
-        {
-            transform.position = SpawnPoint.position;
-        }
+        //if(followPosition)
+        //{
+        //    transform.position = SpawnPoint.position;
+        //}
         //if(Input.touchCount > 0)
         //{
         //    animator.SetBool("Turn", false);
@@ -37,9 +37,4 @@ public class SpawnBord : MonoBehaviour
         gameObject.SetActive(false);
     }
     //you use this one in another script when you hit a board
-    public IEnumerator GoBackDown()
-    {
-        yield return new WaitForSeconds(1f);
-        animator.SetBool("Turn", false);
-    }
 }

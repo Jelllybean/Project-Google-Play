@@ -1,20 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Enemys : MonoBehaviour
 {
+    private SpawnBord spawnBord;
     private HealthManagement HealthManager;
     [SerializeField] private GameObject IdlePoster;
     [SerializeField] private GameObject ShooterPoster;
+    private Animator animator;
+
     void Awake()
     {
         HealthManager = FindObjectOfType<HealthManagement>();
+        spawnBord = GetComponent<SpawnBord>();
+        animator = GetComponent<Animator>();
     }
     private void OnEnable()
     {
         Invoke("Shoot", 5f);
+        IdlePoster.SetActive(true);
+        ShooterPoster.SetActive(false);
     }
 
     private void Shoot()
@@ -22,10 +28,12 @@ public class Enemys : MonoBehaviour
         IdlePoster.SetActive(false);
         ShooterPoster.SetActive(true);
         HealthManager.TotalHealth -= 1;
+        StartCoroutine(GoBackDown());
     }
 
-    public void Retry()
+    private IEnumerator GoBackDown()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("Turn", false);
     }
 }

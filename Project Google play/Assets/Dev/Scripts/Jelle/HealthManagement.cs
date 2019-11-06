@@ -7,7 +7,13 @@ public class HealthManagement : MonoBehaviour
 {
     [SerializeField] private Image[] HearthImages;
     [SerializeField] private GameObject DeathScreen;
+    private SpawnSystem spawnSystem;
     public int TotalHealth = 3;
+
+    private void Start()
+    {
+        spawnSystem = FindObjectOfType<SpawnSystem>();
+    }
 
     void Update()
     {
@@ -23,6 +29,7 @@ public class HealthManagement : MonoBehaviour
         if(TotalHealth <= 0)
         {
             DeathScreen.SetActive(true);
+            spawnSystem.enabled = false;
         }
     }
 }
