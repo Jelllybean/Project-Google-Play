@@ -77,6 +77,6 @@ public class Throwingsystem : MonoBehaviour
         ballRigidbody.isKinematic = false;
         yield return null;
         ballRigidbody.AddRelativeForce(dragDelta.x * sideForce, 0f, Mathf.Pow(dragDelta.y + 1f, 1.5f) * forwardForce);
-        ballPool.Invoke("EnableNewBall", 1f);
+        ballPool.Invoke("EnableNewBall", 0.75f);
     }
 }

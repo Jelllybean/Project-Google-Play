@@ -25,21 +25,30 @@ public class SpawnPatrol : MonoBehaviour
         {
             direction.x *= -1;
         }
-    }
-    private void OnTriggerStay(Collider other)
-    {
         if (other.gameObject.tag == "Board")
         {
             canPlace = false;
             //meshRenderer.enabled = true;
         }
-        else
+    }
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.tag == "Board")
+    //    {
+    //        canPlace = false;
+    //        //meshRenderer.enabled = true;
+    //    }
+    //    else
+    //    {
+    //        canPlace = true;
+    //        //meshRenderer.enabled = false;
+    //    }
+    //}
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Board")
         {
             canPlace = true;
-            //meshRenderer.enabled = false;
         }
     }
-    //private void OnTriggerExit(Collider other)
-    //{
-    //}
 }

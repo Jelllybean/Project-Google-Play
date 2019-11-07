@@ -8,6 +8,7 @@ public class DestroyBord : MonoBehaviour
     private Score score;
     private Enemys enemy;
     private Animator animator;
+    [SerializeField] private int pointsToGive = 100;
     [SerializeField] private GameObject DeathPoster;
     [SerializeField] private GameObject IdlePoster;
     [SerializeField] private GameObject ShootPoster;
@@ -24,12 +25,13 @@ public class DestroyBord : MonoBehaviour
         if (other.gameObject.tag == "ThrownBall")
         {
             IdlePoster.SetActive(false);
-            ShootPoster.SetActive(false);
-            if (DeathPoster)
-                DeathPoster.SetActive(true);
+            if (ShootPoster)
+                ShootPoster.SetActive(false);
+            DeathPoster.SetActive(true);
             StartCoroutine(GoBackDown());
-            score.TotalScore += 100;
-            enemy.CancelInvoke("Shoot");
+            score.TotalScore += pointsToGive;
+            if (enemy)
+                enemy.CancelInvoke("Shoot");
         }
     }
 

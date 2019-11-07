@@ -13,16 +13,17 @@ class TextFadeOut : MonoBehaviour
     {
         text = GetComponent<TextMeshPro>();
     }
-    private void OnEnable()
-    {
-        StartCoroutine(FadeOutRoutine());
-    }
+    //private void OnEnable()
+    //{
+    //    StartCoroutine(FadeOutRoutine());
+    //}
     public void FadeOut()
     {
         StartCoroutine(FadeOutRoutine());
     }
-    private IEnumerator FadeOutRoutine()
+    public IEnumerator FadeOutRoutine()
     {
+        gameObject.SetActive(true);
         for (float t = 0.01f; t < fadeOutTime; t += Time.deltaTime)
         {
             text.alpha = Mathf.Lerp(1f, 0f, Mathf.Min(1, t / fadeOutTime));

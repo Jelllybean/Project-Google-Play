@@ -7,6 +7,7 @@ public class SpawnSystem : MonoBehaviour
     [SerializeField] private Transform[] SpawnPoints;
     [SerializeField] private float spawnSpeed;
     [SerializeField] private GameObject[] Boards;
+    private SpawnPatrol[] spawnPatrol;
     private Animator[] BoardAnimator;
     private int currentBoard;
     private float timer;
@@ -14,9 +15,14 @@ public class SpawnSystem : MonoBehaviour
     void Start()
     {
         BoardAnimator = new Animator[Boards.Length];
+        spawnPatrol = new SpawnPatrol[SpawnPoints.Length];
         for (int i = 0; i < Boards.Length; i++)
         {
             BoardAnimator[i] = Boards[i].GetComponent<Animator>();
+        }
+        for (int i = 0; i < SpawnPoints.Length; i++)
+        {
+            spawnPatrol[i] = SpawnPoints[i].GetComponent<SpawnPatrol>();
         }
     }
 
@@ -35,6 +41,7 @@ public class SpawnSystem : MonoBehaviour
             else
             {
                 int randomNumExcept = randomIntExcept(0, Boards.Length, randomNum);
+                timer = 0;
                 currentBoard = randomNumExcept;
                 SpawnBord();
             }
@@ -50,8 +57,17 @@ public class SpawnSystem : MonoBehaviour
 
     private void SpawnBord()
     {
+        print("spawn een board");
         BoardAnimator[currentBoard].SetBool("Turn", true);
         Boards[currentBoard].SetActive(true);
-        Boards[currentBoard].transform.position = SpawnPoints[Random.Range(0, SpawnPoints.Length)].position;
+        int pointToSpawnOn = Random.Range(0, SpawnPoints.Length);
+        if(spawnPatrol[pointToSpawnOn].canPlace)
+        {
+            Boards[currentBoard].transform.position = SpawnPoints[pointToSpawnOn].position;
+        }
+        else
+        {
+            Boards[currentBoard].transform.position = SpawnPoints[randomIntExcept(0, SpawnPoints.Length, pointToSpawnOn)].position;
+        }
     }
 }

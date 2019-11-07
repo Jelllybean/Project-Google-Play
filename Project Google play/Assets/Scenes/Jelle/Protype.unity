@@ -1168,14 +1168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 75963528}
   followPosition: 1
---- !u!95 &75963528 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 75208140}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &75963531 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -1207,6 +1200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &84744878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1474,14 +1470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 85588509}
   followPosition: 1
---- !u!95 &85588509 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 374800098}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &85588512 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -1513,6 +1502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &87558986
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,14 +2171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 121129315}
   followPosition: 1
---- !u!95 &121129315 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 671176864}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &121129318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -2218,6 +2203,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &133399673
 GameObject:
   m_ObjectHideFlags: 0
@@ -4073,14 +4061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 309958017}
   followPosition: 1
---- !u!95 &309958017 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 654819282}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &309958020 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -4112,6 +4093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &318328229
 GameObject:
   m_ObjectHideFlags: 0
@@ -4873,14 +4857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 367456156}
   followPosition: 1
---- !u!95 &367456156 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 973121344}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &367456159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -4912,6 +4889,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1001 &374800098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5957,14 +5937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 473756496}
   followPosition: 1
---- !u!95 &473756496 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1954042695}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &473756499 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -5996,6 +5969,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &483910410
 GameObject:
   m_ObjectHideFlags: 0
@@ -10466,14 +10442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 981538851}
   followPosition: 1
---- !u!95 &981538851 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 395763893}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &981538854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -10505,6 +10474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1045416471
 GameObject:
   m_ObjectHideFlags: 0
@@ -10648,14 +10620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1066909177}
   followPosition: 1
---- !u!95 &1066909177 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 436867378}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1066909180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -10687,6 +10652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1078263848
 GameObject:
   m_ObjectHideFlags: 0
@@ -11515,14 +11483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1144070638}
   followPosition: 1
---- !u!95 &1144070638 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1365379314}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1144070641 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -11554,6 +11515,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1144830409
 GameObject:
   m_ObjectHideFlags: 0
@@ -11697,14 +11661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1148874449}
   followPosition: 1
---- !u!95 &1148874449 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 944842830}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1148874452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -11736,6 +11693,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1158027820
 GameObject:
   m_ObjectHideFlags: 0
@@ -12097,14 +12057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1181293925}
   followPosition: 1
---- !u!95 &1181293925 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 265529373}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1181293928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -12136,6 +12089,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1204442737
 GameObject:
   m_ObjectHideFlags: 0
@@ -13515,14 +13471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1428641647}
   followPosition: 1
---- !u!95 &1428641647 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 262283956}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1428641650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -13554,6 +13503,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1443842423
 GameObject:
   m_ObjectHideFlags: 0
@@ -14160,14 +14112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1515949403}
   followPosition: 1
---- !u!95 &1515949403 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1166537384}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1515949406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -14199,6 +14144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1528310999
 GameObject:
   m_ObjectHideFlags: 0
@@ -14998,14 +14946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1640941253}
   followPosition: 1
---- !u!95 &1640941253 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 545242566}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1640941256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -15037,6 +14978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1649947846
 GameObject:
   m_ObjectHideFlags: 0
@@ -15478,14 +15422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1721406810}
   followPosition: 1
---- !u!95 &1721406810 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 830919811}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1721406813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -15517,6 +15454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1722305169
 GameObject:
   m_ObjectHideFlags: 0
@@ -16126,14 +16066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1792445961}
   followPosition: 1
---- !u!95 &1792445961 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 972292140}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1792445964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -16165,6 +16098,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1807471825
 GameObject:
   m_ObjectHideFlags: 0
@@ -16556,14 +16492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1832766560}
   followPosition: 1
---- !u!95 &1832766560 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1845618251}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1832766563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -16595,6 +16524,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1001 &1845618251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17174,14 +17106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 1964225738}
   followPosition: 1
---- !u!95 &1964225738 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 878107643}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1964225741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -17213,6 +17138,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &1974685180
 GameObject:
   m_ObjectHideFlags: 0
@@ -17356,14 +17284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 2005699373}
   followPosition: 1
---- !u!95 &2005699373 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1103037320}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2005699376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -17395,6 +17316,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &2036604090
 GameObject:
   m_ObjectHideFlags: 0
@@ -17662,14 +17586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 357886952}
-  animator: {fileID: 2098104097}
   followPosition: 1
---- !u!95 &2098104097 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: fd91018a98ad4394d87b3cab8b9943b1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1743518095}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2098104100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd91018a98ad4394d87b3cab8b9943b1,
@@ -17701,6 +17618,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54688fbbad87d974c8c958d448f0e5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeathPoster: {fileID: 0}
+  IdlePoster: {fileID: 0}
+  ShootPoster: {fileID: 0}
 --- !u!1 &2137425813
 GameObject:
   m_ObjectHideFlags: 0
