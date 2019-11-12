@@ -9,6 +9,7 @@ public class Enemys : MonoBehaviour
     [SerializeField] private GameObject IdlePoster;
     [SerializeField] private GameObject ShooterPoster;
     private Animator animator;
+    [SerializeField] private AudioSource[] SoundEffects;
 
     void Awake()
     {
@@ -25,6 +26,7 @@ public class Enemys : MonoBehaviour
 
     private void Shoot()
     {
+        SoundEffects[0].Play();
         IdlePoster.SetActive(false);
         ShooterPoster.SetActive(true);
         HealthManager.TotalHealth -= 1;

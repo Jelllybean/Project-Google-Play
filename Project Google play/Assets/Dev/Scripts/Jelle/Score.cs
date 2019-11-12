@@ -7,10 +7,14 @@ using TMPro;
 public class Score : MonoBehaviour
 {
     [HideInInspector] public int TotalScore;
-    [SerializeField] private TextMeshProUGUI TextScore;
+    [SerializeField] private string text; 
+    [SerializeField] private TextMeshProUGUI[] TextScore;
 
     void Update()
     {
-        TextScore.text = "" + TotalScore;        
+        for (int i = 0; i < TextScore.Length; i++)
+        {
+            TextScore[i].text = text + TotalScore;
+        }
     }
 }

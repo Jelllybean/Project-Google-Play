@@ -11,12 +11,11 @@ class TextFadeOut : MonoBehaviour
 
     private void Awake()
     {
-        text = GetComponent<TextMeshPro>();
     }
-    //private void OnEnable()
-    //{
-    //    StartCoroutine(FadeOutRoutine());
-    //}
+    private void OnEnable()
+    {
+        StartCoroutine(FadeOutRoutine());
+    }
     public void FadeOut()
     {
         StartCoroutine(FadeOutRoutine());

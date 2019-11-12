@@ -7,6 +7,7 @@ public class SpawnBord : MonoBehaviour
     private Animator animator;
     [SerializeField] private Transform SpawnPoint;
     [HideInInspector] public bool followPosition = true;
+    [SerializeField] private AudioSource BoardFlyIn;
 
     void Awake()
     {
@@ -28,6 +29,7 @@ public class SpawnBord : MonoBehaviour
     //to start the animation when the object gets enabled
     private void OnEnable()
     {
+        BoardFlyIn.Play();
         animator.SetBool("Turn", true);
     }
     //this one gets used by an animation
