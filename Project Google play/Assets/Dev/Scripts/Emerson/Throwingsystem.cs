@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Throwingsystem : MonoBehaviour
 {
-
+    private BallPooling ballPool;
     Vector2 m_startPos, m_endPos;
     Vector3 m_direction;
     float m_touchTimeStart, m_touchTimeFinish, m_timeInterval;
@@ -15,9 +15,10 @@ public class Throwingsystem : MonoBehaviour
 
     private void Start()
     {
+        ballPool = FindObjectOfType<BallPooling>();
         StartCoroutine(ThrowPreocedureAsync());
     }
-    // Update is called once per frame
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -76,6 +77,6 @@ public class Throwingsystem : MonoBehaviour
         ballRigidbody.isKinematic = false;
         yield return null;
         ballRigidbody.AddRelativeForce(dragDelta.x * sideForce, 0f, Mathf.Pow(dragDelta.y + 1f, 1.5f) * forwardForce);
-
+        ballPool.Invoke("EnableNewBall", 0.75f);
     }
 }
