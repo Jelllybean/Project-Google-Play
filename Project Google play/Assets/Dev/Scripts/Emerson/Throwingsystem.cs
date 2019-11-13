@@ -24,29 +24,7 @@ public class Throwingsystem : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(0);
-        }
-        //Debug.Log(Input.mousePosition + " " + Screen.width);
-
-        /*if (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Began)
-        {
-            m_touchTimeStart = Time.deltaTime;
-            m_startPos = Input.GetTouch(0).position;
-        }
-
-        if (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Ended)
-        {
-            m_touchTimeFinish = Time.deltaTime;
-
-            m_timeInterval = m_touchTimeFinish - m_touchTimeStart;
-
-            m_endPos = Input.GetTouch(0).position;
-
-            m_direction = m_startPos - m_endPos * m_throwForce;
-
-            GetComponent<Rigidbody>().AddForce(transform.forward * m_throwForce);
-
-            Debug.Log(m_direction);
-        }*/
+        }       
     }
 
     private IEnumerator ThrowPreocedureAsync()
