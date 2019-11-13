@@ -32,7 +32,6 @@ public class BordPooling : MonoBehaviour
         timer += 1 * Time.deltaTime;
         if (timer >= spawnSpeed)
         {
-            Debug.Log("spawn een bord");
             int randomNum = Random.Range(0, BordList.Count);
             int randomNumSpawn = Random.Range(0, spawnPatrol.Length);
             int randomNumInactive = randomIntExcept(0, BordList.Count, randomNum);
@@ -41,6 +40,7 @@ public class BordPooling : MonoBehaviour
                 if (!BordList[i].activeSelf)
                 {
                     SpawnBordFunction(i, randomNumSpawn);
+                    timer = 0;
                     break;
                 }
             }

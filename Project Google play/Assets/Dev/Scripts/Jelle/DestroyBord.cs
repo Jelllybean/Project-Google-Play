@@ -31,7 +31,7 @@ public class DestroyBord : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "ThrownBall")
+        if (other.gameObject.CompareTag("ThrownBall"))
         {
             ScoreText.SetActive(true);
             ScoreText.transform.position = transform.position;
