@@ -4,32 +4,39 @@ using UnityEngine;
 
 public class SpawnBord : MonoBehaviour
 {
+    private Animator animator;
     [SerializeField] private Transform SpawnPoint;
-    [SerializeField] private Animator animator;
     [HideInInspector] public bool followPosition = true;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private AudioSource BoardFlyIn;
+
+    void Awake()
     {
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(followPosition)
-        {
-            transform.position = SpawnPoint.position;
-        }
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            animator.SetBool("Turn", false);
-        }
+        //if(followPosition)
+        //{
+        //    transform.position = SpawnPoint.position;
+        //}
+        //if(Input.touchCount > 0)
+        //{
+        //    animator.SetBool("Turn", false);
+        //}
     }
+
+    //to start the animation when the object gets enabled
     private void OnEnable()
     {
+        BoardFlyIn.Play();
         animator.SetBool("Turn", true);
     }
-    private void OnDisable()
+    //this one gets used by an animation
+    public void GoBackDownEvent()
     {
+        animator.SetBool("End", true);
+        gameObject.SetActive(false);
     }
+    //you use this one in another script when you hit a board
 }
