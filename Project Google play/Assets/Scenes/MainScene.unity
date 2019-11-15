@@ -1011,6 +1011,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 32729238}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &32729238
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1369,6 +1370,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 51443899}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &51443899
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2978,6 +2980,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 96994829}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &96994829
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3302,6 +3305,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 114929923}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &114929923
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5370,6 +5374,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 212227198}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &212227198
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5711,6 +5716,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 217935566}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &217935566
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6708,6 +6714,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 268603956}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &268603956
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7095,6 +7102,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 280808636}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &280808636
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7767,6 +7775,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 315586998}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &315586998
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7810,6 +7819,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 319901859}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &319901859
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8543,6 +8553,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 346791180}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &346791180
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8729,6 +8740,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 352352008}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &352352008
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9232,6 +9244,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 389351852}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &389351852
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10473,6 +10486,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 423516913}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &423516913
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11652,6 +11666,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 445822073}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &445822073
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12026,6 +12041,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 469107164}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &469107164
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12290,6 +12306,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 473657562}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &473657562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13676,6 +13693,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 514863275}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &514863275
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13923,6 +13941,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 519927368}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &519927368
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14264,6 +14283,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 543549902}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &543549902
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14341,6 +14361,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 545266346}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &545266346
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14555,6 +14576,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 567015531}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &567015531
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16827,6 +16849,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 624396950}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &624396950
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17329,6 +17352,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 639122443}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &639122443
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17372,6 +17396,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 639342830}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &639342830
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17617,6 +17642,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 646896679}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &646896679
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18166,6 +18192,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 662192895}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &662192895
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20253,6 +20280,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 734897925}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &734897925
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21324,6 +21352,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 749455582}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &749455582
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22082,6 +22111,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 783992497}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &783992497
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22125,6 +22155,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 786002879}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &786002879
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23200,6 +23231,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 816745064}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &816745064
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23243,6 +23275,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 833392729}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &833392729
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24247,6 +24280,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 850646562}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &850646562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24290,6 +24324,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 851788123}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &851788123
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24418,6 +24453,7 @@ RectTransform:
   - {fileID: 1414768661}
   - {fileID: 158396091}
   - {fileID: 1321611052}
+  - {fileID: 1570234678}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24988,6 +25024,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 882972864}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &882972864
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26371,6 +26408,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 938806938}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &938806938
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27135,6 +27173,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 973335035}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &973335035
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27178,6 +27217,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 976608384}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &976608384
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28037,6 +28077,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1008009085}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1008009085
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28539,6 +28580,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1016164789}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1016164789
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28803,6 +28845,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1023680457}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1023680457
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28846,6 +28889,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1026125279}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1026125279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29622,6 +29666,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1053623475}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1053623475
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29665,6 +29710,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1055014409}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1055014409
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29995,6 +30041,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1064723658}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1064723658
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31323,6 +31370,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1103817149}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1103817149
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31929,6 +31977,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1121217745}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1121217745
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32789,6 +32838,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1148642670}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1148642670
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33811,6 +33861,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1180953683}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1180953683
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36491,6 +36542,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1252263121}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1252263121
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36534,6 +36586,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1252952586}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1252952586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36577,6 +36630,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1255116183}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1255116183
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37122,6 +37176,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1282623893}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1282623893
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39184,6 +39239,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1349637149}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1349637149
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39542,6 +39598,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1362427954}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1362427954
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -39773,6 +39830,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1380502247}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1380502247
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -41604,6 +41662,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1459801642}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1459801642
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -41899,6 +41958,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1468808408}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1468808408
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -42019,6 +42079,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1469603809}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1469603809
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -42778,6 +42839,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1495473515}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1495473515
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -42821,6 +42883,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1503410022}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1503410022
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43320,6 +43383,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1516429424}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1516429424
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43490,6 +43554,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1533941376}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1533941376
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -44755,6 +44820,163 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564639358}
   m_Mesh: {fileID: -5141985450832305362, guid: 001e04b7413714b40adc74a63e72d68b, type: 3}
+--- !u!1 &1570234677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1570234678}
+  - component: {fileID: 1570234680}
+  - component: {fileID: 1570234679}
+  m_Layer: 5
+  m_Name: Debug text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1570234678
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570234677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 860600172}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1570234679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570234677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1570234679}
+    characterCount: 0
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 0
+    linkCount: 0
+    lineCount: 0
+    pageCount: 0
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1570234680
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570234677}
+  m_CullTransparentMesh: 0
 --- !u!1 &1572120377
 GameObject:
   m_ObjectHideFlags: 0
@@ -46672,6 +46894,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1635016367}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1635016367
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -47676,6 +47899,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1675557472}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1675557472
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -47813,6 +48037,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1680342065}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1680342065
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49265,6 +49490,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1726789500}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1726789500
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49402,6 +49628,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1733057864}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1733057864
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49895,6 +50122,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1746578048}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1746578048
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -51547,6 +51775,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1784435675}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1784435675
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -52190,6 +52419,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1808027788}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1808027788
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -52650,6 +52880,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1841203606}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1841203606
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53747,6 +53978,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1882943471}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1882943471
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -54042,6 +54274,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1896772494}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1896772494
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -54306,6 +54539,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1919828950}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1919828950
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -54349,6 +54583,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1921218511}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1921218511
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -55755,6 +55990,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1960683854}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1960683854
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -56340,6 +56576,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 1987959603}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &1987959603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -57116,6 +57353,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 2005773218}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &2005773218
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -57159,6 +57397,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 2006815650}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &2006815650
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -58266,6 +58505,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 2066972863}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &2066972863
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -58429,6 +58669,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 2077562843}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &2077562843
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60517,6 +60758,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 2120202730}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &2120202730
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60560,6 +60802,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 2122389404}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &2122389404
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -60603,6 +60846,7 @@ MonoBehaviour:
   forwardForce: 250
   sideForce: 1000
   ballRigidbody: {fileID: 2128918589}
+  m_DebugText: {fileID: 1570234679}
 --- !u!54 &2128918589
 Rigidbody:
   m_ObjectHideFlags: 0
