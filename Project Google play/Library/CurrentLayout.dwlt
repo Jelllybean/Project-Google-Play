@@ -21,7 +21,11 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
+<<<<<<< Updated upstream
   m_MinSize: {x: 950, y: 394}
+=======
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Stashed changes
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,8 +47,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 1920
     height: 997
+=======
+    width: 1536
+    height: 781
+>>>>>>> Stashed changes
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -114,7 +123,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 344}
   m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 5261
+=======
+  controlID: 159
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +152,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 344}
   m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 5204
+=======
+  controlID: 160
+>>>>>>> Stashed changes
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +181,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 5205
+=======
+  controlID: 161
+>>>>>>> Stashed changes
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,6 +275,34 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< Updated upstream
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 442
+    width: 1536
+    height: 289
+  m_MinSize: {x: 334, y: 272}
+  m_MaxSize: {x: 14004, y: 10022}
+  vertical: 0
+  controlID: 14
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -382,9 +431,13 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ea320000
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: eeb4ffff24b5ffff2ab5ffff2eb5ffff66b7ffff96b7ffffbeb8ffffc6b8ffff84bbffffcebcfffffabcffff14bfffff18bfffff28c0ffff5ac0ffff74c2ffff78c2ffffc2c3ffffeec3ffff48c7ffff4cc7fffff4cdffff26ceffff40d0ffff44d0ffffc8d0fffff4d0ffff0ed3ffff12d3ffff16d4ffff42d4ffff9cd7ffffa0d7fffffee6ffff2cf1ffff8cfbffff40750000267f000044b90100
+=======
+      m_ExpandedIDs: 8cfbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -479,9 +532,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.18405038, y: 0.11090309, z: -0.020904697, w: -0.9764164}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 2116.9214
     speed: 2
     m_Value: 2116.9214
+=======
+    m_Target: 28.371485
+    speed: 2
+    m_Value: 28.371485
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -570,10 +629,15 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/Dev/Scripts/Jelle
+=======
+    - Assets
+>>>>>>> Stashed changes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< Updated upstream
   - Assets/Dev/Scripts/Jelle
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Program Files (x86)\glu\jaar 3\Periode 1\Project google playstore\Project-Google-Play\Project
@@ -585,6 +649,19 @@ MonoBehaviour:
     m_SelectedIDs: ee300000
     m_LastClickedID: 12526
     m_ExpandedIDs: 00000000a82c0000442e0000603200002833000076340000
+=======
+  - Assets
+  m_LastFoldersGridSize: 68
+  m_LastProjectPath: D:\Game Development\Jaar 3\Periode 9\Project\Git\Project Google
+    Play\Project Google play
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: c62c0000
+    m_LastClickedID: 11462
+    m_ExpandedIDs: 00000000c62c0000982e00000c330000f63300005a35000000ca9a3b
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -612,7 +689,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000a82c0000442e0000603200002833000076340000
+=======
+    m_ExpandedIDs: 00000000c62c0000982e00000c330000f63300005a350000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
